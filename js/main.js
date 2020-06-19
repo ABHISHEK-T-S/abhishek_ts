@@ -154,6 +154,9 @@
 			        	scrollTop: $('[data-section="' + section + '"]').offset().top - 55
 			    	}, 500);
 			   }
+			   else{
+				   return true;
+			   }
 
 		    if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
